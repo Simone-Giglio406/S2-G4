@@ -15,7 +15,13 @@ area(5, 7);
  la loro somma moltiplicata per tre.
 */
 
-const crazySum = function (num1, num2) {};
+const crazySum = function (num1, num2) {
+  const sum = num1 + num2 * 3;
+  console.log(sum);
+};
+crazySum(2, 2);
+crazySum(3, 5);
+crazySum(10, 10);
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
